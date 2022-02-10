@@ -1,0 +1,40 @@
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <link rel="stylesheet" href="styles.css">
+    
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+        <script src="index.js" defer></script>
+    
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+</head>
+<body>
+    
+    <form action="">
+    <select name="businesses" id="select">
+        <option id="restaurants" value="restaurants">Would you like to go out to eat?</option>
+        <option id="movie" value="movie">Would you like to watch a movie?</option>
+        <option id="bar" value="bar">Would you like to go to a bar?</option>
+        <option id="car" value="car">Would you like to rent a car?</option>
+        <option id="hospital" value="hospital">Do you you need to find a hospital?</option>
+    </select>
+    <button id="submitButton">Submit</button>
+    
+    </form>
+    <div id="map"></div>
+
+
+    
+</body>
+</html>
